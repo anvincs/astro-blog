@@ -14,7 +14,7 @@ interface Props {
     {tags.map((tag: string, index: number) => (
         <span
         class={`px-2 py-1 text-white rounded-full text-xs hover:opacity-90 ${index % 2 === 0 ? 'bg-green-500' : 'bg-indigo-500'}`}
-        ><a href={`/article/tag/${tag}`}>#{capitalize(tag)}</a>
+        ><a href={`/articles/tag/${tag}`}>#{capitalize(tag)}</a>
     </span>
     ))}
 </div>
